@@ -86,7 +86,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and Introduction
-st.title("📊 Matiks Data Analyst Dashboard")
+st.title("📊 Matiks Data Analyst Dashboard - (use light theme)")
 st.markdown("Welcome to the Matiks Dashboard! This app analyzes user behavior, monetization, and engagement for the Matiks gaming platform, providing insights into Daily Active Users (DAU), Weekly Active Users (WAU), Monthly Active Users (MAU), revenue trends, retention, and user segmentation.")
 
 # Sidebar Navigation
@@ -199,7 +199,7 @@ if page == "Approach":
     st.markdown("""
     <div class="explanation">
     <h3>Data Analysis Approach</h3>
-    <p><b>Data Loading and Cleaning:</b> The dataset is loaded from './cleaned_matiks_data.csv'. Dates are converted to datetime, and negative values in playtime and session duration are set to zero for consistency.</p>
+    <p><b>Data Loading and Cleaning:</b>  Dates are converted to datetime, and negative values in playtime and session duration are set to zero for consistency.</p>
     <p><b>KPI Calculations:</b> Key metrics include:</p>
     <ul>
         <li><b>Activity Metrics:</b> DAU, WAU, MAU, and Stickiness Ratio to measure user engagement frequency.</li>
